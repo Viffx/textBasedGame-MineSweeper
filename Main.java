@@ -123,7 +123,7 @@ public class Main {
 			}
 
 			// detect a completed board (win condition)
-			completed = true;
+			boolean completed = true;
 			for (int i = 0; i < dem; i++) {
 				for (int j = 0; j < dem; j++) {
 					if (board[i][j] != 0) {
