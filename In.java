@@ -57,7 +57,7 @@ public class In {
 			return '\n';
 	}
 	public static void prompt(String prompt) {
-		Out.print(prompt + " ");
+		System.out.print(prompt + " ");
 	}
 	// Read a String from standard system input
 	public static String getString() {
