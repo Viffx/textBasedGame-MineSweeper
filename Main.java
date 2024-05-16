@@ -271,8 +271,9 @@ public class Main {
 			for (int i : array) {
 				int offset = convertToBase26(j).length()-1; // get the number label
 				j++;
-				Out.println(Symbols[i] + repeatString(" ",offset)); // print the row
+				Out.print(Symbols[i] + repeatString(" ",offset)); // print the row
 			}
+			Out.ln();
 		}
 	}
 	public static String convertToBase26(int decimalNumber) {
